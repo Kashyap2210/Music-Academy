@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { cn } from "../../app/utils/cn";
 
 type SpotlightProps = {

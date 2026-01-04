@@ -1,6 +1,5 @@
 "use client";
-
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import { AnimatedTooltip } from "../../../components/ui/animated-tooltip";
 
 const people = [
   {

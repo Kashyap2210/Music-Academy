@@ -2,7 +2,7 @@
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { HoverBorderGradient } from "@/components/ui/hover-button-gradient";
 import Link from "next/link";
-import courseData from "../data/music_courses.json";
+import courseData from "../../data/music_courses.json";
 
 export interface ICourse {
   id: number;

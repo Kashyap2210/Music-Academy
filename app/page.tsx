@@ -1,5 +1,5 @@
-import FeaturedCourses from "./components/FeaturedCourses";
-import HeroSection from "./components/HeroSection";
+import FeaturedCourses from "./components/ui/FeaturedCourses";
+import HeroSection from "./components/ui/HeroSection";
 
 export default function Home() {
   return (

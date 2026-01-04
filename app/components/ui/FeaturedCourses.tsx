@@ -31,7 +31,7 @@ export default function FeaturedCourses() {
           </p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="mt-10 flex flex-col items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((course) => (
             <div key={course.id} className="flex justify-center ">
@@ -52,11 +52,11 @@ export default function FeaturedCourses() {
             </div>
           ))}
         </div>
-      </div>
-      <div className="mt-20 text-center">
-        <HoverBorderGradient>
-          <Link href={"/courses"}>View All Courses</Link>
-        </HoverBorderGradient>
+        <div className="mt-20 text-center">
+          <HoverBorderGradient>
+            <Link href={"/courses"}>View All Courses</Link>
+          </HoverBorderGradient>
+        </div>
       </div>
     </div>
   );

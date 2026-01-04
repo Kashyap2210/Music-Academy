@@ -1,5 +1,6 @@
 import FeaturedCourses from "./components/ui/FeaturedCourses";
 import HeroSection from "./components/ui/HeroSection";
+import WhyChooseUs from "./components/ui/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     >
       <HeroSection />
       <FeaturedCourses />
+      <WhyChooseUs />
     </main>
   );
 }

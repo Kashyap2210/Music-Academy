@@ -1,4 +1,10 @@
-export const musicSchoolTestimonials = [
+export interface IMusicSchoolTestimonials {
+  quote: string;
+  name: string;
+  title: string;
+}
+
+export const musicSchoolTestimonials: IMusicSchoolTestimonials[] = [
   {
     quote:
       "Joining the music school transformed my understanding of music and helped me to truly discover my own sound. The instructors are world-class!",

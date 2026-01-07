@@ -1,4 +1,11 @@
-export const featuredWebinars = [
+export interface IFeaturedWebinars {
+  title: string;
+  description: string;
+  slug: string;
+  isFeatured: boolean;
+}
+
+export const featuredWebinars: IFeaturedWebinars[] = [
   {
     title: "Understanding Music Theory",
     description:

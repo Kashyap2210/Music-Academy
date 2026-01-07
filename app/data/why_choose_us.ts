@@ -1,4 +1,9 @@
-export const musicSchoolContent = [
+export interface IMusicSchoolContent {
+  title: string;
+  description: string;
+}
+
+export const musicSchoolContent: IMusicSchoolContent[] = [
   {
     title: "Discover Your Sound with Us: A Personal Journey in Music Mastery",
     description:

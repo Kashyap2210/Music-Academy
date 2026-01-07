@@ -1,4 +1,11 @@
-export const instructors = [
+export interface IInstructors {
+  id: number;
+  name: string;
+  designation: string;
+  image: string;
+}
+
+export const instructors: IInstructors[] = [
   {
     id: 1,
     name: "Elena Briggs",

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 function UpcomingWebinars() {
   return (
-    <div className="p-12 bg-gray-900">
+    <div className="p-12 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-col items-center justify-center">
         <div className="text-center">
           <h2 className="text-base text-teal-600">UPCOMING WEBINARS</h2>
